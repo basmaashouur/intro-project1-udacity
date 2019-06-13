@@ -1,1 +1,39 @@
 /* add your CSS here */
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: #008080;
+}
+.center{
+	text-align: left;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+ul{
+	padding: 0;
+}
+li{
+    margin: 0;
+	padding-right: 0;
+	list-style: none;
+}
+.card {
+    border: 1px solid grey;
+	box-shadow:8px 8px 2px #ddd;
+  }
+.fact{
+	font-style: italic;
+}
+span{
+	font-weight: bold;
+}
+div{
+	padding:1%;
+}
+img{
+	height:100%;
+	width:100%;
+}
